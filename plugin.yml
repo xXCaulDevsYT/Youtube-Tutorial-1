@@ -1,0 +1,5 @@
+name: JoinMessage
+main: JoinMessage\Main
+version: "1.0.0"
+api: [1.0.0]
+description: a welcome message that greets people that join the server.
