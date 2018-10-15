@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/xXCaulDevsYT/Youtube-Tutorial-1
+branches:
+- master
+projects:
+  Youtube-Tutorial-1:
+    path: ""
+...
