@@ -1,5 +1,5 @@
 name: AuroraWelcomer
-main: JoinMessage\Main
+main: EmeraldMC\Main
 version: "1.0.0"
 api: [1.0.0]
 description: a Welcomer for AuroraHCF.
