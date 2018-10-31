@@ -16,12 +16,19 @@ class Main extends PluginBase implements Listener{//Part 2 is finishined now let
   
   public function onPlayerJoin(PlayerJoinEvent $event){
     $p = event->getPlayer();
-    $p->sendMessage("§b==========§d[§e+§d]§b==========§r");
-    $p->sendMessage("§l§eWelcome §r§7to §dAurora§5HCF§r");
-    $p->sendMessage("§l§cSTORE§r§7 auroramcpe.buycraft.net");
-    $p->sendMessage("§l§9DISCORD§r§7 discord.gg/bAhXBRC");
-    $p->sendMessage("§l§6YOUTUBE§r§7 TNT123Creeper");
-    $p->sendMessage("§b==========§d[§e+§d]§b=========§r");
+    $p->sendMessage("§7===============§d===============");
+    $p->sendMessage("§l§r");
+    $p->sendMessage("§l      §5Aurora§dHCF §r§7BETA");
+    $p->sendMessage("§l§r");
+    $p->sendMessage("§aNow Playing: §7KitMap");
+    $p->sendMessage("§l§r");
+    $p->sendMessage("§aStore: §7AuroraMCPE.buycraft.net");
+    $p->sendMessage("§aVote: §7Coming Soon");
+    $p->sendMessage("§aDiscord: §7Coming Soon");
+    $p->sendMessage("§l§r");
+    $p->sendMessage("§aGet Started With: §7/f help");
+    $p->sendMessage("§l§r");
+    $p->sendMessage("§d===============§7===============");
   }
   
   //Thank you guys for watching this video you can find this plugin at https://github.com/xXCaulDevsYT/Youtube-Tutorial-1
